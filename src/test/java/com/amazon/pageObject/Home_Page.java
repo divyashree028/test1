@@ -315,7 +315,7 @@ public class Home_Page extends BaseClass {
 //			}
 			for(int itr=0; itr<productsInCartDel.size(); itr++) {
 				deleteProductInCart_Button.click();
-				Thread.sleep(1000);
+				Thread.sleep(3000);
 			}
 			Assert.assertEquals(header_Text.getText().trim(), "Your Amazon Cart is empty.");
 			System.out.println("Deleted all the Items in the Cart - Successful");
