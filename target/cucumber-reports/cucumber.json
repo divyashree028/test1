@@ -1,0 +1,123 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-04-10T04:18:38.878Z",
+        "line": 15,
+        "name": "Amazon :: TC001 :: Validate the cart by adding or deleting the products to or from the cart",
+        "description": "",
+        "id": "amazon;amazon-::-tc001-::-validate-the-cart-by-adding-or-deleting-the-products-to-or-from-the-cart;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3385934000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Navigate to the Url",
+            "match": {
+              "location": "Amazon.navigate_to_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6647324700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User log in to the amazon application \"testautomation94223@gmail.com\", \"PrimePass\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"testautomation94223@gmail.com\"",
+                  "offset": 38
+                },
+                {
+                  "val": "\"PrimePass\"",
+                  "offset": 71
+                }
+              ],
+              "location": "Amazon.user_log_in_to_the_amazon_application(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9040209700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Navigate to Car Accessories Section",
+            "match": {
+              "location": "Amazon.navigate_to_car_accessories_section()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40806124100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "add any four products under five hundred INR to the cart and Validate the product prices and description",
+            "match": {
+              "location": "Amazon.add_any_four_products_under_five_hundred_inr_to_the_cart_and_validate_the_product_prices_and_description()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4961064300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Proceed to Buy, select address and validate the prices",
+            "match": {
+              "location": "Amazon.proceed_to_buy_select_address_and_validate_the_prices()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5547234400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Navigate back to Cart",
+            "match": {
+              "location": "Amazon.navigate_back_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5143859300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Delete the products in Cart and validate cart is empty",
+            "match": {
+              "location": "Amazon.delete_the_products_in_cart_and_validate_cart_is_empty()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@P1"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon",
+    "description": "",
+    "id": "amazon",
+    "keyword": "Feature",
+    "uri": "file:Features/amazon.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-10T09:48:35 IST" name="com.amazon.runner.RunCukesTest" finished-at="2023-04-10T09:49:55 IST" duration-ms="79848">
+    <groups>
+      <group name="cucumber scenarios">
+        <method signature="RunCukesTest.scenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.amazon.runner.RunCukesTest@2118cddf]" name="scenario" class="com.amazon.runner.RunCukesTest"/>
+      </group> <!-- cucumber scenarios -->
+    </groups>
+    <test started-at="2023-04-10T09:48:35 IST" name="Command line test" finished-at="2023-04-10T09:49:55 IST" duration-ms="79848">
+      <class name="com.amazon.runner.RunCukesTest">
+        <test-method is-config="true" signature="TestNGBeforeSuite()[pri:0, instance:com.amazon.runner.RunCukesTest@2118cddf]" started-at="2023-04-10T09:48:35 IST" name="TestNGBeforeSuite" finished-at="2023-04-10T09:48:35 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNGBeforeSuite -->
+        <test-method is-config="true" signature="BeforeClass()[pri:0, instance:com.amazon.runner.RunCukesTest@2118cddf]" started-at="2023-04-10T09:48:35 IST" name="BeforeClass" finished-at="2023-04-10T09:48:38 IST" duration-ms="3246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method signature="scenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.amazon.runner.RunCukesTest@2118cddf]" started-at="2023-04-10T09:48:38 IST" name="scenario" data-provider="scenarios" finished-at="2023-04-10T09:49:54 IST" duration-ms="75899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Amazon :: TC001 :: Validate the cart by adding or deleting the products to or from the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Amazon"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:com.amazon.runner.RunCukesTest@2118cddf]" started-at="2023-04-10T09:49:54 IST" name="AfterClass" finished-at="2023-04-10T09:49:55 IST" duration-ms="590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method is-config="true" signature="TestNGAfterSuite()[pri:0, instance:com.amazon.runner.RunCukesTest@2118cddf]" started-at="2023-04-10T09:49:55 IST" name="TestNGAfterSuite" finished-at="2023-04-10T09:49:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNGAfterSuite -->
+      </class> <!-- com.amazon.runner.RunCukesTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.amazon.runner.RunCukesTest -->
+</testng-results>
